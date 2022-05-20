@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400&display=swap");
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+.hidden {
+  display: none;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+h1 {
+  text-align: center;
+  font-size: 36px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+}
+
+h2 {
+  text-align: center;
+  font-size: 28px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  word-wrap: break-word;
+}
+
+ul {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.123);
+  padding: 20px;
+  text-align: center;
+  margin: 5% 15%;
+  margin-bottom: 5%;
+  border-radius: 20px;
+  list-style: none;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  transition: 1.5s;
+}
+
+li {
+  padding: 10px;
+  color: white;
+}
+
+#aquarius {
+  background-color: rgb(42, 116, 165);
+  border-radius: 20px;
+  margin-bottom: 5px;
+  transition: 0.5s;
+}
+
+#aquarius:hover {
+  background-color: rgba(255, 255, 255, 0.384);
+  cursor: pointer;
+}
+
+#pisces {
+  background-color: rgb(42, 165, 97);
+  border-radius: 20px;
+  margin-bottom: 5px;
+  transition: 0.5s;
+}
+
+#pisces:hover {
+  background-color: rgba(255, 255, 255, 0.384);
+  cursor: pointer;
+}
+
+#aries {
+  background-color: rgb(194, 35, 35);
+  border-radius: 20px;
+  margin-bottom: 5px;
+  transition: 0.5s;
+}
+
+#aries:hover {
+  background-color: rgba(255, 255, 255, 0.384);
+  cursor: pointer;
+}
+#taurus {
+  background-color: rgb(165, 42, 138);
+  border-radius: 20px;
+  margin-bottom: 5px;
+  transition: 0.5s;
+}
+
+#taurus:hover {
+  background-color: rgba(255, 255, 255, 0.384);
+  cursor: pointer;
+}
+#gemini {
+  background-color: rgb(253, 249, 4);
+  border-radius: 20px;
+  margin-bottom: 5px;
+  transition: 0.5s;
+}
+
+#gemini:hover {
+  background-color: rgba(255, 255, 255, 0.384);
+  cursor: pointer;
+}
+#cancer {
+  background-color: rgb(143, 142, 142);
+  border-radius: 20px;
+  margin-bottom: 5px;
+  transition: 0.5s;
+}
+
+#cancer:hover {
+  background-color: rgba(255, 255, 255, 0.384);
+  cursor: pointer;
+}
+#leo {
+  background-color: rgb(214, 202, 30);
+  border-radius: 20px;
+  margin-bottom: 5px;
+  transition: 0.5s;
+}
+
+#leo:hover {
+  background-color: rgba(255, 255, 255, 0.384);
+  cursor: pointer;
+}
+#virgo {
+  background-color: rgb(15, 92, 19);
+  border-radius: 20px;
+  margin-bottom: 5px;
+  transition: 0.5s;
+}
+
+#virgo:hover {
+  background-color: rgba(255, 255, 255, 0.384);
+  cursor: pointer;
+}
+#libra {
+  background-color: rgb(50, 42, 165);
+  border-radius: 20px;
+  margin-bottom: 5px;
+  transition: 0.5s;
+}
+
+#libra:hover {
+  background-color: rgba(255, 255, 255, 0.384);
+  cursor: pointer;
+}
+#scorpio {
+  background-color: rgb(4, 12, 17);
+  border-radius: 20px;
+  margin-bottom: 5px;
+  transition: 0.5s;
+}
+
+#scorpio:hover {
+  background-color: rgba(255, 255, 255, 0.384);
+  cursor: pointer;
+}
+#sagittarius {
+  background-color: rgb(81, 7, 116);
+  border-radius: 20px;
+  margin-bottom: 5px;
+  transition: 0.5s;
+}
+
+#sagittarius:hover {
+  background-color: rgba(255, 255, 255, 0.384);
+  cursor: pointer;
+}
+#capricorn {
+  background-color: rgb(116, 41, 12);
+  border-radius: 20px;
+  margin-bottom: 5px;
+  transition: 0.5s;
+}
+
+#capricorn:hover {
+  background-color: rgba(255, 255, 255, 0.384);
+  cursor: pointer;
+  transition: 0.5s;
+}
